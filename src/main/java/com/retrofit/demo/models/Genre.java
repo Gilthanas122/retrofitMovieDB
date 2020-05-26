@@ -17,7 +17,7 @@ public class Genre {
   @GeneratedValue
   private long id;
   @SerializedName("name")
-  @Expose
+
   private String name;
 
   @ManyToMany
