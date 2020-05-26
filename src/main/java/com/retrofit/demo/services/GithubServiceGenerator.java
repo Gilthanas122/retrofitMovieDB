@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 @Service
 public class GithubServiceGenerator {
-  private static final String BASE_URL = "https://api.github.com/";
+  private static final String BASE_URL = "https://api.themoviedb.org/3/";
 
   private static Retrofit.Builder builder
           = new Retrofit.Builder()
